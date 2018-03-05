@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><CDADescriptor>
+  <DataSources>
+    <Connection id="query" type="scripting.scripting">
+      <Initscript/>
+      <Language>beanshell</Language>
+    </Connection>
+  </DataSources>
+  <DataAccess access="public" connection="query" id="query" type="jsonScriptable">
+    <Name>query</Name>
+    <Cache duration="3600" enabled="true"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[{
+   "resultset":[
+      ["Plus", 80],
+      ["Orange", 99],
+      ["Play", 75],
+      ["Netia", 92],
+      ["UPC", 55],
+      ["T-mobile", 95],
+   ],
+
+   "metadata":[
+      {"colIndex":0,"colType":"String","colName":"operator"},
+      {"colIndex":1,"colType":"Integer","colName":"wartosc"}
+   ]
+}]]></Query>
+  </DataAccess>
+</CDADescriptor>
